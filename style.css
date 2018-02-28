@@ -1,0 +1,10 @@
+#score-con {
+  font-size: 3em;
+}
+#score-con h4 {
+  display: inline;
+}
+#score-con #text {
+  color: white;
+  margin-left: 8.5em;
+}
