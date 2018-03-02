@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Monster Function Game</title>
-<script src="script.js"></script>
+<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+<script src="script.js" defer></script>
 <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
 <style>
 body{font-family: 'Slabo 27px', serif; background-color: #494949;}
@@ -41,6 +42,12 @@ h4{text-align: center; margin-top: 5px;}
 	<div id="foodcontainer"><p id="foodbox"></p></div>
 	<div id="buttoncontainer"><a class="greenbtn" href="javascript: eatit()">Eat it</a><a class="redbtn" href="javascript: trashit()">Trash it</a></div>
 	<div id="commentcontainer"><p id="commentbox"></p></div>
+	<a href="javascript: playpause()">
+		<div id="playpausemusic">
+			<i class="fas fa-volume-off" id="voloff"></i>
+			<i class="fas fa-volume-up" id="volup"></i>
+		</div>
+	</a>
 
 </div>
 </div>

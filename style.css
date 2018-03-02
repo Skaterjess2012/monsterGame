@@ -8,3 +8,14 @@
   color: white;
   margin-left: 8.5em;
 }
+#playpausemusic {
+  background: blue;
+  margin-top: 31em;
+  display: flex;
+  align-items: center;
+  width: 3em;
+}
+#playpausemusic i {
+  font-size: 2.5em;
+  color: black;
+}
